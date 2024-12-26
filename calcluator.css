@@ -1,0 +1,78 @@
+/* calculatorContainer code starts here */
+
+/* .calculatorContainer {
+    background-color: var(--primaryColor);
+}
+
+.calculatorComponent {
+    background-color: aqua;
+}
+
+.calculatorBody {
+    background-color: blueviolet;
+}
+
+.calculatorBlock {
+    background-color: chartreuse;
+} */
+
+.calculator {
+    background-color: var(--primaryColor);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 50%;
+    /* text-align: center; */
+}
+
+.calculator h3{
+    /* background-color: #0000ff; */
+    font-size: 4rem;
+}
+
+.calculator form{
+    /* background-color: #8a2be2; */
+    width: 100%;
+}
+
+.formGroup{
+    /* background-color: #ff7f50; */
+    margin-bottom: 1rem;
+    width: 100%;
+
+}
+
+.formGroup input, #arithmetic {
+    padding: 1.5rem;
+    width: 80%;
+    /* border: 1px solid #d32525; */
+    border: none;
+    text-align: center;
+}
+
+.formGroup input:focus{
+    outline: #1eff0a;
+    outline-style: solid;
+    outline-width: 0.2rem;
+}
+
+.formbtn{
+    width: 80%;
+}
+
+.formbtn button{
+    border: none;
+    outline:none;
+    background-color:#260efa;
+    font-size: 3rem;
+    height: 4rem;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input::placeholder{
+    text-align: left;
+}
+
+/* calculatorContainer code ends here */
