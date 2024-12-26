@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./calcluator.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,7 +22,7 @@
                 <div class="calculatorBlock d-flex">
                     <div class="calculator d-flex-col">
                         <h3>Calculator</h3>
-                        <!-- <form action="" method=""> -->
+                        <form action="#" method="post" class="d-flex-col">
                             <div class="formGroup d-flex-col">
                                 <label for="num1">Enter Number1 :</label>
                                 <input type="number" placeholder="Enter Number" class="num1" id="num1">
@@ -43,15 +44,16 @@
                                 </select>
                             </div>
 
-                            <div class="formGroup d-flex-col">
-                                <button type="button" onclick="calculate()" >Calculate</button>
+                            <div class="formGroup d-flex formbtn">
+                                <button type="reset">Clear</button>
+                                <button type="button" onclick="calculate()">Calculate</button>
                             </div>
 
                             <div class="formGroup d-flex-col">
                                 <label for="answer">Result : </label>
-                                <input type="text" id="answer" class="answer" readonly>
+                                <input type="text" id="answer" class="answer" placeholder="Result displayed here" readonly>
                             </div>
-                        <!-- </form> -->
+                        </form>
                     </div>
                 </div>
             </div>
